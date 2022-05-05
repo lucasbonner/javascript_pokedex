@@ -1,0 +1,29 @@
+.pokedex-title  {
+  text-align: center;
+  font-family: "PokemonPixelFont";
+  background-color: rgba(191,176,135,255);
+  background-size: 100% auto;
+  margin: 0;
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+}
+
+.individual-pokemon-list {
+  width: 800px;
+  margin: auto;
+}
+
+.Pokemon-List {
+  text-align: center;
+}
+
+.favorite-or-all {
+  margin-top: 20px;
+  position: absolute;
+  right: 500px;
+  margin-bottom: 1000px;
+  font-family: "PokemonPixelFont";
+  height: 25px;
+}

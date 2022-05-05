@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "PokemonPixelFont";
+  src: local("PokemonPixelFont"),
+   url("../fonts/pokemon_pixel_font.ttf") format("truetype");
+  font-weight: bold;
+}
+
+div .individual-pokemon {
+  border-radius: 10%;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  margin: 25px;
+}
+
+div .pokemon-image:hover {
+  background-color: rgba(214,157,123,255);
+  cursor: pointer;
+}
+
+div .pokemon-image {
+  background-color: rgba(189, 195, 199, 0.6);
+  border-radius: 45%;
+  width: 110px;
+  height: 10px;
+  display: inline;
+  padding-top: 32px;
+}
+
+div .card-content {
+  text-align: center;
+  font-family: "PokemonPixelFont";
+  font-size: 20px;
+}
+
+div.pokemon-info {
+  border: solid grey .5px;
+  background-color: white;
+  border-radius: 15%;
+}

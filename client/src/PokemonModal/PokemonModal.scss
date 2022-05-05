@@ -1,0 +1,59 @@
+.pokemon-modal-main {
+  margin-left: 50px;
+  text-align: left !important;
+}
+
+.individual-pokemon-modal {
+  font-family: "PokemonPixelFont";
+  font-size: 20px;
+  margin: 20px;
+}
+
+.number-and-name {
+  margin-bottom: 25px;
+}
+
+.sprite-modal {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  right: 15px;
+  top: .1px;
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+}
+
+.sprite-modal:hover {
+  animation: bounce 0.5s linear;
+}
+
+.pokemon-number-modal {
+  display: inline;
+  margin-right: 5px;
+}
+
+.pokemon-name-modal {
+  display: inline;
+}
+
+.shiny-button {
+  position: absolute;
+  right: 15px;
+}
+
+.favorite-button {
+  position: absolute;
+  right: 60px;
+}
